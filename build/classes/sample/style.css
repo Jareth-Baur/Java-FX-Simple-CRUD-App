@@ -1,0 +1,54 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/*
+    Created on : Oct 13, 2024, 9:55:10 PM
+    Author     : Jareth Baur
+*/
+
+/* style.css */
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-padding: 20px;
+    -fx-background-color: #f4f4f4;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.text-field {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #ccc;
+    -fx-padding: 5px;
+}
+
+.button {
+    -fx-background-color: #2e86c1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px 15px;
+    -fx-border-width: 0;
+}
+
+.button:hover {
+    -fx-background-color: #2874a6;
+}
+
+.list-view {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+}
+
+.grid-pane {
+    -fx-hgap: 10px;
+    -fx-vgap: 15px;
+}
+
